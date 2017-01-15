@@ -1,7 +1,10 @@
 class Driver_Passenger_Matching:
-    def matching(Passenger_Source,Passenger_Destination,timestamp,Passenger_id):
-          getEstimateFare(Passenger_Source,Passenger_Destination)
-          Pass driver_id/unavailability of ride to Handling Driver and Passenger request Api
+    status_of_the_ride;
+    Estimate_fare;
+
+    def matching(start_latitude,start_longitude,end_latitude,end_longitude,timestamp,Passenger_id):
+          getEstimateFare(start_latitude,start_longitude,end_latitude,end_longitude)
+          Pass driver_id/unavailability of ride to Passenger_request Api
              
 
 
